@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qft-renorm-ai"
+version = "0.1.0"
+description = "One-loop QED renormalization in code (n = 4 - ε dimensional regularization, Z-factors, Ward identity, β-function, tree-level cross sections) and AI experiments: sparse regression rediscovers the β-function from running-coupling data; LLM vs LLM + CAS tools on loop calculations."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Gopal Sharma" }]
+requires-python = ">=3.10"
+dependencies = ["sympy>=1.12", "numpy>=1.26", "scipy>=1.11"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8"]
+agent = ["openai>=1.40", "mcp>=1.2"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+qft-tools-mcp = "qftlab.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

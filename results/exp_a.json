@@ -1,0 +1,238 @@
+{
+  "A1": {
+    "delta_alpha_leptons": {
+      "e": 0.017435,
+      "mu": 0.009178,
+      "tau": 0.004806
+    },
+    "delta_alpha_lep_total": 0.031419,
+    "inv_alpha_0": 137.036,
+    "inv_alpha_MZ_leptons_only": 132.73,
+    "delta_alpha_had5_input": 0.0276,
+    "inv_alpha_MZ_with_hadrons": 128.948
+  },
+  "A2": {
+    "noise_0.005": {
+      "noise": 0.005,
+      "per_nf": {
+        "3": {
+          "beta0_true": 9.0,
+          "beta0_fit": 9.0158,
+          "beta0_std": 0.3051,
+          "beta1_true": 64.0,
+          "beta1_fit": 60.52,
+          "beta1_std": 42.99,
+          "alpha2_term_rejected": 0.28,
+          "beta1_fit_two_term_library": 64.88,
+          "beta1_std_two_term_library": 5.34
+        },
+        "4": {
+          "beta0_true": 8.3333,
+          "beta0_fit": 8.3742,
+          "beta0_std": 0.3596,
+          "beta1_true": 51.33,
+          "beta1_fit": 44.96,
+          "beta1_std": 55.77,
+          "alpha2_term_rejected": 0.28,
+          "beta1_fit_two_term_library": 51.23,
+          "beta1_std_two_term_library": 5.75
+        },
+        "5": {
+          "beta0_true": 7.6667,
+          "beta0_fit": 7.8095,
+          "beta0_std": 0.5721,
+          "beta1_true": 38.67,
+          "beta1_fit": 17.43,
+          "beta1_std": 94.65,
+          "alpha2_term_rejected": 0.2,
+          "beta1_fit_two_term_library": 36.13,
+          "beta1_std_two_term_library": 9.13
+        },
+        "6": {
+          "beta0_true": 7.0,
+          "beta0_fit": 6.9361,
+          "beta0_std": 0.7617,
+          "beta1_true": 26.0,
+          "beta1_fit": 39.53,
+          "beta1_std": 133.88,
+          "alpha2_term_rejected": 0.2,
+          "beta1_fit_two_term_library": 24.64,
+          "beta1_std_two_term_library": 12.05
+        }
+      },
+      "beta0_vs_nf": {
+        "slope": -0.6804,
+        "intercept": 11.096,
+        "nf_asymptotic_freedom_lost": 16.31
+      }
+    },
+    "noise_0.01": {
+      "noise": 0.01,
+      "per_nf": {
+        "3": {
+          "beta0_true": 9.0,
+          "beta0_fit": 9.0089,
+          "beta0_std": 0.6185,
+          "beta1_true": 64.0,
+          "beta1_fit": 60.54,
+          "beta1_std": 87.29,
+          "alpha2_term_rejected": 0.12,
+          "beta1_fit_two_term_library": 65.88,
+          "beta1_std_two_term_library": 10.67
+        },
+        "4": {
+          "beta0_true": 8.3333,
+          "beta0_fit": 8.4309,
+          "beta0_std": 0.7271,
+          "beta1_true": 51.33,
+          "beta1_fit": 36.66,
+          "beta1_std": 112.57,
+          "alpha2_term_rejected": 0.22,
+          "beta1_fit_two_term_library": 51.23,
+          "beta1_std_two_term_library": 11.51
+        },
+        "5": {
+          "beta0_true": 7.6667,
+          "beta0_fit": 7.9413,
+          "beta0_std": 1.1495,
+          "beta1_true": 38.67,
+          "beta1_fit": -1.8,
+          "beta1_std": 190.26,
+          "alpha2_term_rejected": 0.1,
+          "beta1_fit_two_term_library": 33.63,
+          "beta1_std_two_term_library": 18.25
+        },
+        "6": {
+          "beta0_true": 7.0,
+          "beta0_fit": 6.8417,
+          "beta0_std": 1.5144,
+          "beta1_true": 26.0,
+          "beta1_fit": 55.09,
+          "beta1_std": 267.58,
+          "alpha2_term_rejected": 0.08,
+          "beta1_fit_two_term_library": 23.3,
+          "beta1_std_two_term_library": 24.12
+        }
+      },
+      "beta0_vs_nf": {
+        "slope": -0.6991,
+        "intercept": 11.202,
+        "nf_asymptotic_freedom_lost": 16.02
+      }
+    },
+    "noise_0.02": {
+      "noise": 0.02,
+      "per_nf": {
+        "3": {
+          "beta0_true": 9.0,
+          "beta0_fit": 9.0287,
+          "beta0_std": 1.2441,
+          "beta1_true": 64.0,
+          "beta1_fit": 55.8,
+          "beta1_std": 175.67,
+          "alpha2_term_rejected": 0.1,
+          "beta1_fit_two_term_library": 67.84,
+          "beta1_std_two_term_library": 21.27
+        },
+        "4": {
+          "beta0_true": 8.3333,
+          "beta0_fit": 8.526,
+          "beta0_std": 1.4551,
+          "beta1_true": 51.33,
+          "beta1_fit": 21.83,
+          "beta1_std": 226.14,
+          "alpha2_term_rejected": 0.12,
+          "beta1_fit_two_term_library": 51.28,
+          "beta1_std_two_term_library": 23.08
+        },
+        "5": {
+          "beta0_true": 7.6667,
+          "beta0_fit": 8.2114,
+          "beta0_std": 2.311,
+          "beta1_true": 38.67,
+          "beta1_fit": -40.81,
+          "beta1_std": 382.4,
+          "alpha2_term_rejected": 0.06,
+          "beta1_fit_two_term_library": 28.62,
+          "beta1_std_two_term_library": 36.51
+        },
+        "6": {
+          "beta0_true": 7.0,
+          "beta0_fit": 6.6638,
+          "beta0_std": 3.0481,
+          "beta1_true": 26.0,
+          "beta1_fit": 88.0,
+          "beta1_std": 538.02,
+          "alpha2_term_rejected": 0.04,
+          "beta1_fit_two_term_library": 20.69,
+          "beta1_std_two_term_library": 48.31
+        }
+      },
+      "beta0_vs_nf": {
+        "slope": -0.7409,
+        "intercept": 11.442,
+        "nf_asymptotic_freedom_lost": 15.44
+      }
+    },
+    "per_nf": {
+      "3": {
+        "beta0_true": 9.0,
+        "beta0_fit": 9.0158,
+        "beta0_std": 0.3051,
+        "beta1_true": 64.0,
+        "beta1_fit": 60.52,
+        "beta1_std": 42.99,
+        "alpha2_term_rejected": 0.28,
+        "beta1_fit_two_term_library": 64.88,
+        "beta1_std_two_term_library": 5.34
+      },
+      "4": {
+        "beta0_true": 8.3333,
+        "beta0_fit": 8.3742,
+        "beta0_std": 0.3596,
+        "beta1_true": 51.33,
+        "beta1_fit": 44.96,
+        "beta1_std": 55.77,
+        "alpha2_term_rejected": 0.28,
+        "beta1_fit_two_term_library": 51.23,
+        "beta1_std_two_term_library": 5.75
+      },
+      "5": {
+        "beta0_true": 7.6667,
+        "beta0_fit": 7.8095,
+        "beta0_std": 0.5721,
+        "beta1_true": 38.67,
+        "beta1_fit": 17.43,
+        "beta1_std": 94.65,
+        "alpha2_term_rejected": 0.2,
+        "beta1_fit_two_term_library": 36.13,
+        "beta1_std_two_term_library": 9.13
+      },
+      "6": {
+        "beta0_true": 7.0,
+        "beta0_fit": 6.9361,
+        "beta0_std": 0.7617,
+        "beta1_true": 26.0,
+        "beta1_fit": 39.53,
+        "beta1_std": 133.88,
+        "alpha2_term_rejected": 0.2,
+        "beta1_fit_two_term_library": 24.64,
+        "beta1_std_two_term_library": 12.05
+      }
+    }
+  },
+  "A3": {
+    "e only (2-60 MeV)": {
+      "slope": -0.11012,
+      "active_leptons_recovered": 1.04
+    },
+    "e, mu (0.5-1.5 GeV)": {
+      "slope": -0.21856,
+      "active_leptons_recovered": 2.06
+    },
+    "e, mu, tau (10-90 GeV)": {
+      "slope": -0.3223,
+      "active_leptons_recovered": 3.04
+    }
+  }
+}
